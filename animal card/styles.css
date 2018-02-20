@@ -1,0 +1,49 @@
+/* Card Container */
+
+.container {
+    margin: 0 auto;
+    width: 350px;
+    border: 1px solid #888;
+    padding: 5px 10px 10px;;
+    box-shadow: 5px 5px #5b3113
+}
+
+
+/* Header Styles */
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #5b3113
+}
+
+/* Image styles */
+
+img {
+    width: 100%;
+}
+
+/* Content and description of giraffe styles */
+
+.content {
+    border: 1px solid #888;
+    margin-top: 15px;
+    padding: 0px 10px 5px;
+}
+
+.italic {
+    font-style: italic
+}
+
+ul {
+    list-style:none;
+    padding: 0; 
+}
+
+ul li span {
+    font-weight: bold;
+    color: #000;
+}
+
+p , li{
+    color: #5b3f2f
+}
