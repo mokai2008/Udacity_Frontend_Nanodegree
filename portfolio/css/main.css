@@ -1,0 +1,176 @@
+body {
+    font-family: 'Open Sans' , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/**************************
+            Header
+***************************/
+h1 {
+    font-family: 'Changa One', sans-serif ;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+
+}
+
+#logo {
+    text-align : center;
+    margin: 0;
+}
+
+h1 ,h2 ,nav a ,nav a:visited  {
+    color: #FFF;
+}
+
+/* green Header */
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+    margin: 0 0 30px 0 ;
+    float: left;
+    width: 100%;
+    padding: 5px 0 0 0 ;
+}
+
+/* nav background on mobile devices */
+nav {
+    background: #599a68;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+a {
+    color: #6ab47b;
+}
+
+nav a:hover , nav a.selected{
+    color: #32673f;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Site Body */
+
+body {
+    background: #FFF;
+    color: #999;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    color: #ccc;
+    padding-top: 50px;
+    clear: both;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/* Portofolio */
+
+ img {
+    max-width: 100%;
+}
+
+#gallery {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery li {
+    width: 45%;
+    margin: 2.5%;
+    float: left;
+    background: #f5f5f5;
+    color: #bdc3c7;
+
+}
+
+#gallery li a p {
+    font-size: 0.75em;
+    margin: 0;
+    padding: 5%;   
+    color: #bdc3c7; 
+}
+
+/**************About page*************/
+.profile-photo {
+    max-width: 150px;
+    border-radius: 20%;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+/**************Contact page*************/
+
+.contact-info {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0  0 30px;
+    margin:  0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a {
+    background-image: url('../img/facebook.png');
+}
